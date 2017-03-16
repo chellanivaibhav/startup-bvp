@@ -1,34 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
 
 	<title>
 		anonymous043044
 	</title>
 </head>
 <body>
-<div id="navbar" class="navbar navbar-default navbar-fixed-top"><!-- navbar box -->
-				<div class="col-md-1" id="logoimg"><!-- logo and company name navbar b0x -->
-				<img src="https://placekitten.com/g/150/150"  id="navbarimg">
-				</div>
-				<div class="col-md-5"id="company">
-				COMPANY NAME<!-- it  will  be an mage  -->
-				</div>
-				<div class="col-md-6" ><!-- navbar 2nd box right -->
-				<div class="nav navbar-nav navbar-right" id="buttonbox">
-					<button class="btn btn-default" id="button"><a href="#">HOME</a></button>
+	<div id="navbar" class="navbar navbar-default navbar-fixed-top"><!-- navbar box -->
+		<div class="col-md-1" id="logoimg"><!-- logo and company name navbar b0x -->
+			<img src="https://placekitten.com/g/150/150"  id="navbarimg">
+		</div>
+		<div class="col-md-5"id="company">
+			COMPANY NAME<!-- it  will  be an mage  -->
+		</div>
+		<div class="col-md-6" ><!-- navbar 2nd box right -->
+			<div class="nav navbar-nav navbar-right" id="buttonbox">
+				<button class="btn btn-default" id="button"><a href="#">HOME</a></button>
 				<button class="btn btn-default" id="button"><a href="about.html">ABOUT</a></button>
-				<button class="btn btn-default" id="button"><a href="contact.html">CONTACT</a></button>
-				</div>
-				</div>
-</div>
-<div id="engineouter">
-	<div id="engineinner">
-		<input type="text" name="search" placeholder="Search..">
+				<button class="btn btn-default" id="button"><a href="contact.html">CONTACT</a>
+				</button>
+			</div>
+		</div>
 	</div>
-</div>
+	<div id="engineouter"><!-- simple outer box -->
+		<div id="engineinner">
+		<div  class="row"><!-- simple innner box it is  -->
+			<div class="col-md-4"><!-- gif image of house box -->
+				<img src="i1.gif" class="img-responsive">
+			</div>
+			<div class="col-md-8"><!-- this is the searching and sort dropdown-->
+				<div class="searchbox"><!-- this is searching box -->
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+				</div>
+				<div class="dropdownbox"><!-- dropdown box it is  -->
+					<div class="dropdown">
+						<button class="dropbtn">Sort_it</button>
+						<div class="dropdown-content">
+							<a href="#">BY distance</a>
+							<a href="#">By facility</a>
+							<a href="#">By Money</a>
+							<a href="#">IDKNOW</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <input type="text" name="search" placeholder="Search.."> -->
+		</div>
+
+		<div><!-- history and connected detail box -->
+			<p class="make_differ_text">WE MAKE A DIFFERENCE</p>
+		</div>
+		<div class="row"><!-- history images and connnected detail -->
+			<div class="col-md-4" style="margin: auto">
+				<img src="https://placekitten.com/g/250/280" class="img-responsive">
+			</div>
+			<div class="col-md-4">
+				<p style="color: black ; font-size: 150% ; ">$there will be images and data  in it$</p>
+			</div>
+			<div class="col-md-4">
+				<img src="https://placekitten.com/g/256/280" class="img-responsive">
+			</div>
+		</div>
+	</div>
+	</div>
 </body>
 </html>
