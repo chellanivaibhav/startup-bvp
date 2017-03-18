@@ -34,12 +34,12 @@
 	margin-top: 50px;
 }
 #engineinner{
-	background-color: #6F595F;
+	background-color: white;
 	margin-left: 100px;
 	margin-right: 100px;
 }
 .input[type=text] {
-	align-self: center;
+	
     width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
@@ -48,4 +48,56 @@
 /* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
     width: 100%;
+}
+
+.searchbox{
+	margin-left:10%;
+	margin-top: 15%;	
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #890C2B;
+}
+.dropdownbox{
+
+	margin-left: 25%;
+	margin-top: 25%;
+}
+.make_differ_text{
+  text-align: center; font-size: 200%; color: black; background-color: white;
 }
