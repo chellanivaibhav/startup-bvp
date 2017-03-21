@@ -52,7 +52,7 @@ input[type=text]:focus {
 
 .searchbox{
 	margin-left:10%;
-	margin-top: 5%;	
+	margin-top: 25%;	
 }
 .dropbtn {
     background-color: black;
@@ -93,11 +93,25 @@ input[type=text]:focus {
 .dropdown:hover .dropbtn {
     background-color: #890C2B;
 }
-.dropdownbox{
+.dropdownbox1{
+margin-top: 10%;
+margin-left: 10%;
+float:left;
+}
+.dropdownbox2{
+    margin-top: 10%;
 
-	margin-left: 25%;
-	margin-top: 10%;
+    float: left;
+}
+.radiobutton{
+margin-top: 10%;
+
+float: left;
 }
 .make_differ_text{
   text-align: center; font-size: 200%; color: black; background-color: white;
+}
+.trybox{
+    background: url('/home/tushar/Documents/10.01.17.html/anonymous043044/i4.jpg') no-repeat center center;
+    min-height: 500px;
 }
