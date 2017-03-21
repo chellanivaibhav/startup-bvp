@@ -52,7 +52,7 @@ input[type=text]:focus {
 
 .searchbox{
 	margin-left:10%;
-	margin-top: 15%;	
+	margin-top: 5%;	
 }
 .dropbtn {
     background-color: black;
@@ -96,7 +96,7 @@ input[type=text]:focus {
 .dropdownbox{
 
 	margin-left: 25%;
-	margin-top: 25%;
+	margin-top: 10%;
 }
 .make_differ_text{
   text-align: center; font-size: 200%; color: black; background-color: white;
