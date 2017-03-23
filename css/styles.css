@@ -51,8 +51,8 @@ input[type=text]:focus {
 }
 
 .searchbox{
-	margin-left:10%;
-	margin-top: 25%;	
+	margin-left:5%;
+	margin-top: 45%;	
 }
 .dropbtn {
     background-color: black;
@@ -94,24 +94,74 @@ input[type=text]:focus {
     background-color: #890C2B;
 }
 .dropdownbox1{
-margin-top: 10%;
-margin-left: 10%;
+margin-top: 20%;
+margin-left: 3%;
 float:left;
 }
 .dropdownbox2{
-    margin-top: 10%;
-
+    margin-top: 20%;
+    margin-left: 3%;
     float: left;
 }
 .radiobutton{
-margin-top: 10%;
-
+margin-top: 20%;
+margin-left: 3%;
 float: left;
 }
 .make_differ_text{
-  text-align: center; font-size: 200%; color: black; background-color: white;
+  text-align: center; font-size: 250%; color: black; background-color: white;
+  font-family: 'Baloo Bhaina', cursive;
+  margin-top: 20px;
+
 }
 .trybox{
     background: url('/home/tushar/Documents/10.01.17.html/anonymous043044/i4.jpg') no-repeat center center;
-    min-height: 500px;
+    min-height: 550px;
+}
+
+.texxt{
+    font-size: 400%;
+
+}
+.footer{
+    background-color: #890C2B;
+    height: 70px;
+    width: 100%;
+
+}
+.footertext{
+   font-family: 'Baloo Bhaina', cursive;
+    color:white;
+    font-size: 175%;
+    text-align: center;
+    padding-top: 1%;
+}
+.differ_no{
+    /*display: inline-block;*/ 
+       width: 32%; 
+    font-size: 300%;
+    /*height: 200px;*/
+    }
+.differ_border{
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 23%;
+    padding-top: 70px;
+    vertical-align: center;
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%; /* or 50% */
+    border-radius: 50%; /* or 50% */
+    text-align: center;
+}
+.differ_text{
+   text-align: center; 
+   font-size: 150%; 
+   color: #6A3442;
+
+  font-family: 'Baloo Bhaina', cursive; 
+}
+.rupee{
+    font-size: 250%;
 }
