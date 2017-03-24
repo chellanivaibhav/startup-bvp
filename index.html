@@ -4,7 +4,19 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- trial start here -->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="description" content="Animated Swatch Book with CSS3 and jQuery" />
+	<meta name="keywords" content="swatch book, css3, jquery, animated, rotation, transition, folding fan" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="../favicon.ico"> 
+	
+	<link rel="stylesheet" type="text/css" href="css/style1.css" />
+	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'> -->
+	<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+	<!-- trial end here -->
 	<title>
 		anonymous043044
 	</title>
@@ -115,18 +127,6 @@
 			</div>
 			<div><!-- why use this  -->
 				<p class="make_differ_text" style="margin-top: 30px; margin-bottom: 20px;">WHY USE THIS</p>
-				<div class="row">
-					<div class="col-md-4">
-					<p class="use_this_text">FREE</p>
-				</div>
-				<div class="col-md-4">
-					<p class="use_this_text">EASY TO USE</p>
-				</div>
-				<div class="col-md-4">
-					<p class="use_this_text">COLLEGE AFFLIATED</p>
-				</div>
-
-				</div>
 			</div>
 
 			
@@ -139,26 +139,74 @@
 	</div><!-- engine outer end here -->
 	<div class="footer"><!-- footer box -->
 		<p class="footertext">footer page@2017</p>
-		<div class="sharebox"><!-- share box   -->
-			<div style="float: left;"><p style="font-size: 25px;color: white;font-family: 'Baloo Bhaina', cursive; padding-top: 7px;">Share @  </p>
-			</div>
-			<div style="float: left; padding-left: 2%">
-				<div style="float: left;">
-
-				<a class="btn btn-block btn-social btn-facebook">
-					<span class="fa fa-facebook-official" style=" font-size: 2em;"></span>  </a>
-				</div>
-				<div style="float: left;">
-				<a class="btn btn-block btn-social btn-twitter">
-					<span class="fa fa-twitter" style=" font-size: 2em;"></span>  </a>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	<div class="footer"><!-- footer box -->
-		<p class="footertext">footer page@2017</p>
 	</div>
+	<div><!-- trial start -->
+
+
+		<section class="main">
+
+			<div id="sb-container" class="sb-container">
+
+				<div>
+					<span class="sb-icon icon-cog"></span>
+					<h4><span>All Settings</span></h4>
+				</div>
+				<div>
+					<span class="sb-icon icon-flight"></span>
+					<h4><span>ROCKING</span></h4>
+				</div>	
+				<div>
+					<span class="sb-icon icon-eye"></span>
+					<h4><span>HELPING</span></h4>
+				</div>	
+				<div>
+					<span class="sb-icon icon-install"></span>
+					<h4><span>EASY TO USE</span></h4>
+				</div>	
+				<div>
+					<span class="sb-icon icon-bag"></span>
+					<h4><span>FREE</span></h4>
+				</div>	
+				<div>
+					<span class="sb-icon icon-globe"></span>
+					<h4><span>NO BROKER</span></h4>
+				</div>	
+
+				<div>
+					<h4><span>why</span></h4>
+					<h5><span>WHY THIS</span></h5>											
+				</div>
+
+
+			</div><!-- sb-container -->
+
+		</section>
+
+	</div>
+
+</div><!-- trial end here --> 	   
+<!-- trial script start-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.swatchbook.js"></script>
+<script type="text/javascript">
+	$(function() {
+
+		$( '#sb-container' ).swatchbook();
+
+	});
+</script>
+<!-- trial script end -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> 
+<script src="jquery.counterup.min.js"></script> 
+<script>
+	jQuery(document).ready(function( $ ) {
+		$('.counter').counterUp({
+			delay: 10,
+			time: 1000
+		});
+	});
+</script>
 		<!-- <script type="text/javascript">
 
 			var _gaq = _gaq || [];
