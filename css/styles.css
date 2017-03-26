@@ -164,4 +164,25 @@ float: left;
 }
 .rupee{
     font-size: 250%;
+
 }
+.sharebox{
+    padding-left: 5%;
+
+}
+.use_this_text{
+    color: #890C2B;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: bold;
+    border-radius: 3px;
+    border-color: black;
+    font-size: 22px;
+    text-align: center;
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:10px;}
+
+
+ master
