@@ -125,7 +125,7 @@ float: left;
 }
 .footer{
     background-color: #890C2B;
-    height: 100px;
+    height: 70px;
     width: 100%;
 
 }
@@ -164,6 +164,7 @@ float: left;
 }
 .rupee{
     font-size: 250%;
+
 }
 .sharebox{
     padding-left: 5%;
@@ -182,3 +183,6 @@ float: left;
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:10px;}
+
+
+ master
